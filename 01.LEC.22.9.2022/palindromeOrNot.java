@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//WAP to accept a number from the user and check if a given number is palindrome or not.
 public class palindromeOrNot {
 
 	public static void main(String[] args) {
