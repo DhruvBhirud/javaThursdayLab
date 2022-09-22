@@ -47,13 +47,21 @@ public class performOperation {
 		System.out.println("Factorial of "+num+" is: "+factorial);
 	}
 	public static void sum() {
-		int a,b,sum;
-		System.out.println("Enter Numbers to be added :");
-		Scanner sc = new Scanner(System.in);
-		a=sc.nextInt();
-		b=sc.nextInt();
-		sum=a+b;
-		System.out.println("Sum of "+a+" and "+b+" is : "+sum);
+		int number, digit, sum = 0;  
+		Scanner sc = new Scanner(System.in);  
+		System.out.print("Enter the number: ");  
+		number = sc.nextInt();  
+		while(number > 0)  
+		{  
+		//finds the last digit of the given number    
+		digit = number % 10;  
+		//adds last digit to the variable sum  
+		sum = sum + digit;  
+		//removes the last digit from the number  
+		number = number / 10;  
+		}  
+		//prints the result  
+		System.out.println("Sum of Digits: "+sum);
 	}
 	public static void arm() {
 		int num,orinum,rem,res=0;
@@ -107,7 +115,7 @@ public class performOperation {
 	      else
 	         System.out.println(+num+" is not a Prime Number.");
 	      }
-	    }
+}
 	
 
 
