@@ -7,7 +7,7 @@
 6. [WAP to display prime number between 1 to 150 in two dimensional array](https://github.com/DhruvBhirud/javaThursdayLab/blob/main/02.LEC.29.9.2022/primeIn2DArray.java)
 7. [Program to create a two dimensional array fill it with given few characters in Java]()\
 
-    Example:\
+    Example:
 
     Input\
     Enter size of the Array : 5 (rows are cols are same here)\
