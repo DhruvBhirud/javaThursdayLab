@@ -6,13 +6,13 @@
 5. [WAP to accept number from user in array and find out the average and sum of array numbers]()
 6. [WAP to display prime number between 1 to 150 in two dimensional array]()
 7. [Program to create a two dimensional array fill it with given few characters in Java]()
-    Example:
+    Example:\
 
-    Input
-    Enter size of the Array : 5 (rows are cols are same here)
-    Enter first character : @
-    Enter second character : *
-    Enter third character : #
+    Input\
+    Enter size of the Array : 5 (rows are cols are same here)\
+    Enter first character : @\
+    Enter second character : *\
+    Enter third character : #\
 
     Output
 
