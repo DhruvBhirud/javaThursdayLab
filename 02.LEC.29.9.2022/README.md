@@ -5,7 +5,7 @@
 4. [WAP to accept size of array from user accordingly accept numbers from user and number which user wants to remove from array and display the output](https://github.com/DhruvBhirud/javaThursdayLab/blob/main/02.LEC.29.9.2022/arrayAddDel.java)
 5. [WAP to accept number from user in array and find out the average and sum of array numbers](https://github.com/DhruvBhirud/javaThursdayLab/blob/main/02.LEC.29.9.2022/arrayAvgSum.java)
 6. [WAP to display prime number between 1 to 150 in two dimensional array](https://github.com/DhruvBhirud/javaThursdayLab/blob/main/02.LEC.29.9.2022/primeIn2DArray.java)
-7. [Program to create a two dimensional array fill it with given few characters in Java]()
+7. [WAP to create a two dimensional array fill it with given few characters in Java]()
 
     Example:
 
