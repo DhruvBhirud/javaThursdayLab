@@ -22,7 +22,7 @@ public class arrayFlip {
 	transpose(twodm);
 	}
 
-private static void transpose(int[][] twodm) {
+public static void transpose(int[][] twodm) {
 	
 	int[][] newtwodm = new int[twodm[0].length][twodm.length];
 	//for loop to flip the 2d array into newtwodm array
@@ -35,7 +35,7 @@ private static void transpose(int[][] twodm) {
 	print_array(newtwodm);
 }
 //Function to print new flipped 2d array
-private static void print_array(int[][] twodm) {
+public static void print_array(int[][] twodm) {
 	for (int i = 0; i < twodm.length; i++) {
 		for (int j = 0; j < twodm[0].length; j++) {
 			System.out.print(twodm[i][j] + " ");

@@ -5,6 +5,7 @@ public class run extends sumdig {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		//Calling rev and sumdigit function from inherited Classes
 		rev();
 		sumdigit();
 	}
