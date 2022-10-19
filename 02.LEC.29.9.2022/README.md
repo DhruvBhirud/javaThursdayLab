@@ -6,20 +6,20 @@
 5. [WAP to accept number from user in array and find out the average and sum of array numbers](.arrayAvgSum.java)
 6. [WAP to display prime number between 1 to 150 in two dimensional array](.primeIn2DArray.java) Yet to Finish
 7. [WAP to create a two dimensional array fill it with given few characters in Java](.twoDArray.java)
-```
-    Example:
+    ```
+        Example:
 
-    Input\
-    Enter size of the Array : 5 (rows are cols are same here)\
-    Enter first character : @\
-    Enter second character : *\
-    Enter third character : #
+        Input\
+        Enter size of the Array : 5 (rows are cols are same here)\
+        Enter first character : @\
+        Enter second character : *\
+        Enter third character : #
 
-    Output
+        Output
 
-    -# @ @ @ # \
-    -* # @ # * \
-    -* * # * * \
-    -* # @ # * \
-    -# @ @ @ # \
-```
+        -# @ @ @ # \
+        -* # @ # * \
+        -* * # * * \
+        -* # @ # * \
+        -# @ @ @ # \
+    ```
