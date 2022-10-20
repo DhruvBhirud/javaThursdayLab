@@ -1,0 +1,2 @@
+# Thursday LAB 21/10/2022
+1. [WAP to Accept details from the Employee :- name, e_id, phone_no, address, salary, Expenses(User) N number of employee Calculate the highest salary,highest extpenses Calc and display highest salary Display the employee name who is getting highest salary.](./employeeSalaryExpenses/)
