@@ -1,9 +1,6 @@
-import java.util.*;
-
 public class primeIn2DArray {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int i,count,n=150;
         System.out.println("Prime numbers between 1 to 150 are ");
         for(int j=2;j<=n;j++)

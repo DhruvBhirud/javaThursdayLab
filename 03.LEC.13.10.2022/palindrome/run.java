@@ -2,7 +2,6 @@
 public class run extends palindromeOrNot {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		//calling palindrome function from inherited class
 		palindrome();
 	}

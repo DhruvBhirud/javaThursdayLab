@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class palindromeOrNot {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		//Initializing number reverse number and remainder
 		int num,revnum=0,rem;
 		//Getting input from user
@@ -18,6 +17,7 @@ public class palindromeOrNot {
 			revnum=revnum*10+rem;
 			num /= 10;
 		}
+		sc.close();
 		//Check if Original number matches the reverse number or not i.e. palindrome or not
 		if (orinum == revnum) {
 		      System.out.println(orinum + " is a Palindrome.");

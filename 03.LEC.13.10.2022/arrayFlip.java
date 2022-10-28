@@ -10,7 +10,6 @@ After changing the rows and columns of the said array:
 public class arrayFlip {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		//Array to be converted
 		int[][] twodm = {
 			{10, 20, 30},

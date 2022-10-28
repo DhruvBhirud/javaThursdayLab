@@ -5,12 +5,10 @@ import java.util.*;
 //is divisible by 3 or not.
 
 public class functionsPrimeEODiv {
-
+	static Scanner sc = new Scanner(System.in);
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		//Generating object
 		functionsPrimeEODiv obj=new functionsPrimeEODiv();
-		Scanner sc = new Scanner(System.in);
 		int num;
 		//taking input from user as number
 	    System.out.print("Enter the Number : ");

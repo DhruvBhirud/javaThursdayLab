@@ -3,11 +3,9 @@ import java.util.*;
 //WAP to calculate HCF of Two given numbers.
 
 public class hcfOfTwoNo {
-
+	static Scanner sc = new Scanner(System.in);
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int n1, n2, hcf=0;
-		Scanner sc = new Scanner(System.in);
 		//Taking input from user for 1st number
 		System.out.println("Enter the First Number");
 		n1=sc.nextInt();

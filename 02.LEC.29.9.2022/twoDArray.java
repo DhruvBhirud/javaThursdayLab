@@ -3,14 +3,12 @@ import java.util.*;
 //WAP to create a two dimensional array fill it with given few characters in Java
 
 public class twoDArray {
-
+	static Scanner sc = new Scanner(System.in);
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Scanner Sc = new Scanner(System.in);
 
 	    // enter the size here.
 	    System.out.print("Enter size of the Array : ");
-	    int n = Sc.nextInt();
+	    int n = sc.nextInt();
 	    // enter size in given range.
 	    if (n < 2 || n > 10)
 	      System.out.print("Size out of Range");
@@ -20,13 +18,13 @@ public class twoDArray {
 
 	      // enter different characters for filling the array
 	      System.out.print("Enter first character : ");
-	      char c1 = Sc.next().charAt(0);
+	      char c1 = sc.next().charAt(0);
 
 	      System.out.print("Enter second character : ");
-	      char c2 = Sc.next().charAt(0);
+	      char c2 = sc.next().charAt(0);
 
 	      System.out.print("Enter third character : ");
-	      char c3 = Sc.next().charAt(0);
+	      char c3 = sc.next().charAt(0);
 
 	      for (int i = 0; i < n; i++) {
 	        for (int j = 0; j < n; j++) {

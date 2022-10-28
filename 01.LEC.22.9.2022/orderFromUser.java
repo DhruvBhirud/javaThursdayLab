@@ -4,7 +4,6 @@ import java.util.*;
 public class orderFromUser {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int menu_item,menu1,i_price=0;
 		  char ans;
 		  //adding order list to string i_name
@@ -102,6 +101,7 @@ public class orderFromUser {
 		  System.out.println("Thanks for coming");
 		  System.out.println("The Food Items ARE:\n"+i_name);
 		  System.out.println("The Total bill amount is:"+i_price);
+		  sc.close();
 	}
 
 }

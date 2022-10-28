@@ -6,12 +6,11 @@ import java.util.*;
 //4:fibonacci series
 //5:Prime no or Not
 public class performOperation {
+	static Scanner sc = new Scanner(System.in);
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int ch;
 		System.out.println("01. Facorial \n02. Sum of Digits \n03. Armstrong or Not \n04. Fibonacci Series \n05. Prime or Not");
-		Scanner sc = new Scanner(System.in);
 		ch=sc.nextInt();
 		//using switch case
 		switch (ch) {
@@ -41,7 +40,6 @@ public class performOperation {
 	public static void fact() {
 		int i,factorial=1,num;
 		System.out.println("Enter the Number :");
-		Scanner sc = new Scanner(System.in);
 		num=sc.nextInt();
 		//using for loop to find factorial of number
 		for(i=1;i<=num;i++) {
@@ -52,7 +50,6 @@ public class performOperation {
 	//method for sum of digit of number
 	public static void sum() {
 		int number, digit, sum = 0;  
-		Scanner sc = new Scanner(System.in);  
 		System.out.print("Enter the number: ");  
 		number = sc.nextInt();
 		//using while loop to find sum of digits of number
@@ -72,7 +69,6 @@ public class performOperation {
 	public static void arm() {
 		int num,orinum,rem,res=0;
 		System.out.println("Enter the Number :");
-		Scanner sc = new Scanner(System.in);
 		num=sc.nextInt();
 		orinum=num;
 		//using while loop
@@ -93,7 +89,6 @@ public class performOperation {
 	public static void fib() {
 		int num1=0,num2=1,num3,i,count;
 		 System.out.println("Enter the required number for list : ");
-		 Scanner sc = new Scanner(System.in);
 		 count=sc.nextInt();
 		 //printing 0 and 1
 		 System.out.print(num1+" "+num2);
@@ -109,7 +104,6 @@ public class performOperation {
 	//method for prime number
 	public static void prime() {
 		int num, i, count=0;
-	      Scanner sc = new Scanner(System.in);
 	      System.out.print("Enter the Number : ");
 	      num = sc.nextInt();
 	      //for loop

@@ -3,12 +3,10 @@ import java.util.Scanner;
 //WAP to create a class for Reverse No, second class Sum of Digit, Third class use both the class property and display the output
 
 public class sumdig extends reverse {
-
+	static Scanner sc = new Scanner(System.in);
 	public static void sumdigit() {
-		// TODO Auto-generated method stub
-		int number, digit, sum = 0;  
-		Scanner sc = new Scanner(System.in);  
-		System.out.print("Enter the number: ");  
+		int number, digit, sum = 0;
+		System.out.print("Enter the number: ");
 		number = sc.nextInt();
 		//using while loop to find sum of digits of number
 		while(number > 0)  

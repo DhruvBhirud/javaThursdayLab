@@ -3,10 +3,9 @@ import java.util.*;
 //WAP to accept size of array from user accordingly accept numbers from user and number which user wants to remove from array and display the output
 
 public class arrayAddDel {
+	static Scanner sc = new Scanner(System.in);
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Scanner sc = new Scanner(System.in);
 		int size1,i,j,element;
 		System.out.println("Enter size : ");
 		size1=sc.nextInt();
@@ -25,8 +24,7 @@ public class arrayAddDel {
 		System.out.println("\nEnter the Element to Remove: ");
 	    element = sc.nextInt();
 	    //using for loop to remove the given element
-	    for(i=0; i<size1; i++)
-	      {
+	    for(i=0; i<size1; i++) {
 	         if(element==no[i])
 	         {
 	            for(j=i; j<(size1-1); j++)

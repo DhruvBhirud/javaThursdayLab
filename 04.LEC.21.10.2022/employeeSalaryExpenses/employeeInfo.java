@@ -3,9 +3,8 @@ import java.util.Scanner;
 public class employeeInfo extends employeeSalaryExpenses {	
 		static int emp_no;
 		int total_exp=0;
+		static Scanner sc = new Scanner(System.in);
 		public static void main(String[] args) {
-			
-			Scanner sc=new Scanner(System.in);
 			System.out.println("Enter Total Employee Number");
 			emp_no=sc.nextInt();
 			employeeInfo emp[]=new employeeInfo[emp_no];
@@ -49,7 +48,7 @@ public class employeeInfo extends employeeSalaryExpenses {
 	    	System.out.println("Enter your expenses: ");
 	    	do {	
 	    		System.out.println("Enter Expense Reason : ");
-	    		String reason=sc.next();
+	    		//String reason=sc.next();
 	    		System.out.println("Enter Expenses :");
 	    		exp=sc.nextInt();
 	    		total_exp=total_exp + exp;

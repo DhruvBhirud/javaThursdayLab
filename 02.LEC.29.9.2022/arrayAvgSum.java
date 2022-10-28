@@ -3,10 +3,9 @@ import java.util.*;
 //WAP to accept number from user in array and find out the average and sum of array numbers
 
 public class arrayAvgSum {
+	static Scanner sc = new Scanner(System.in);
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Scanner sc = new Scanner(System.in);
 		int size,i,sum = 0,avg;
 		//taking input from user
 		System.out.println("Enter size : ");

@@ -1,12 +1,10 @@
 import java.util.Scanner;
 //WAP to accept the positive numbers  from user and display the sum of that numbers using loop.
 public class addition {
-
+    static Scanner sc = new Scanner(System.in);
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int n;
         //taking user input
-		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the amount of positive numbers you want to add :");
 		n=sc.nextInt();
         //Defining array
