@@ -7,7 +7,7 @@ class Run
           {
                Fib fib = new Fib();
                fib.start();
-               fib.sleep(4000);
+               fib.sleep(1000);
                Rev rev = new Rev();
                rev.start();
           }
