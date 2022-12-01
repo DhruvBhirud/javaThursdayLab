@@ -6,3 +6,4 @@ For Daily Assignments Visit -> [Daily Java Assignments](https://github.com/Dhruv
 4. [LEC.21.10.2022](04.LEC.21.10.2022/)
 5. [LEC.27.10.2022](05.LEC.27.10.2022/)
 6. [LEC.03.11.2022](06.LEC.03.11.2022/)
+7. [LEC.01.12.2022](07.LEC.01.12.2022/)
